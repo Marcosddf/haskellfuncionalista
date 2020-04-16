@@ -10,8 +10,8 @@ Este repositório está sendo usado como material de apoio para disciplina CI106
 
 Ordem sugerida de aprendizado:
 
-[programacao_funcionalista.ipynb](https://github.com/Marcosddf/haskellfuncionalista/blob/master/programacao_funcionalista.ipynb)
-[funcoes_lambda_haskell.ipynb](https://github.com/Marcosddf/haskellfuncionalista/blob/master/funcoes_lambda_haskell.ipynb)
+- [programacao_funcionalista.ipynb](https://github.com/Marcosddf/haskellfuncionalista/blob/master/programacao_funcionalista.ipynb)
+- [funcoes_lambda_haskell.ipynb](https://github.com/Marcosddf/haskellfuncionalista/blob/master/funcoes_lambda_haskell.ipynb)
 
 ### Cópia do repositório
 
