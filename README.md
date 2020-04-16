@@ -8,6 +8,11 @@ Os notebooks em Haskell são recomendados pra aprendizado iterativo e rápido da
 
 Este repositório está sendo usado como material de apoio para disciplina CI1062 - Paradigmas de Programação, do Departamento de Informática da UFPR. Sugestões, correções de bugs encontrados e contribuições são bem-vindos.
 
+Ordem sugerida de aprendizado:
+
+[programacao_funcionalista.ipynb](https://github.com/Marcosddf/haskellfuncionalista/blob/master/programacao_funcionalista.ipynb)
+[funcoes_lambda_haskell.ipynb](https://github.com/Marcosddf/haskellfuncionalista/blob/master/funcoes_lambda_haskell.ipynb)
+
 ### Cópia do repositório
 
 Este repositório pode ser copiado e estendido.
