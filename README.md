@@ -4,6 +4,10 @@ Esta página tem como objetivo apresentar uma introdução à programação func
 
 Os notebooks em Haskell são recomendados pra aprendizado iterativo e rápido das construções apresentadas.
 
+### Notebooks em Haskell
+
+Um repositório compatível com um [Binder](https://mybinder.org/) do [Jupyter](https://jupyter.org/) permite a execução dos scritps disponíveis em uma determinada linguagem. O kernel Haskell usado neste Binder é o [IHaskell](https://github.com/gibiansky/IHaskell). 
+
 ## Disciplina de Paradigmas de Programação
 
 Este repositório está sendo usado como material de apoio para disciplina CI1062 - Paradigmas de Programação, do Departamento de Informática da UFPR. Sugestões, correções de bugs encontrados e contribuições são bem-vindos.
@@ -13,6 +17,12 @@ Ordem sugerida de aprendizado:
 - [programacao_funcionalista.ipynb](https://github.com/Marcosddf/haskellfuncionalista/blob/master/programacao_funcionalista.ipynb)
 - [funcoes_lambda_haskell.ipynb](https://github.com/Marcosddf/haskellfuncionalista/blob/master/funcoes_lambda_haskell.ipynb)
 - [listas_haskell.ipynb](https://github.com/Marcosddf/haskellfuncionalista/blob/master/listas_haskell.ipynb)
+
+### Execução local do notebook usando o Docker
+
+É necessário instalar o __Binder__ Jupyter do Haskell para o notebook ser interpretado.
+
+Para a execução local, os seguintes passos são necessários:
 
 ### Cópia do repositório
 
