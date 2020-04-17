@@ -17,6 +17,7 @@ Ordem sugerida de aprendizado:
 - [programacao_funcionalista.ipynb](https://github.com/Marcosddf/haskellfuncionalista/blob/master/programacao_funcionalista.ipynb)
 - [funcoes_lambda_haskell.ipynb](https://github.com/Marcosddf/haskellfuncionalista/blob/master/funcoes_lambda_haskell.ipynb)
 - [listas_haskell.ipynb](https://github.com/Marcosddf/haskellfuncionalista/blob/master/listas_haskell.ipynb)
+- [estruturas_recursivas_algoritmos.ipynb](https://github.com/Marcosddf/haskellfuncionalista/blob/master/algoritmos_estruturas_complexos.ipynb)
 
 ### Execução remota
 
