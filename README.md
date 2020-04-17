@@ -10,7 +10,7 @@ Um repositório compatível com um [Binder](https://mybinder.org/) do [Jupyter](
 
 ## Disciplina de Paradigmas de Programação
 
-Este repositório está sendo usado como material de apoio para disciplina CI1062 - Paradigmas de Programação, do Departamento de Informática da UFPR. Sugestões, correções de bugs encontrados e contribuições são bem-vindos.
+Este repositório está sendo usado como material de apoio para disciplina CI1062 - Paradigmas de Programação, do tDepartamento de Informática da UFPR. Sugestões, correções de bugs encontrados e contribuições são bem-vindos.
 
 Ordem sugerida de aprendizado:
 
@@ -23,6 +23,16 @@ Ordem sugerida de aprendizado:
 É necessário instalar o __Binder__ Jupyter do Haskell para o notebook ser interpretado.
 
 Para a execução local, os seguintes passos são necessários:
+
+Baixar este repositório para um diretório local.
+
+Executar o comando de execução do container docker. A primeira execução é demorada, pois irá baixar a imagem docker, com todos os pacotes necessários para sua execução completa.
+
+```
+docker run --rm -p 8888:8888 -v CAMINHO_COMPLETO_DIRETORIO_ORIGEM:/home/jovyan/notebooks gibiansky/ihaskell
+```
+
+No console de execução, abrir a URL no navegador. A URL terá um formato semelhante a este: `http://127.0.0.1:8888/?token=5b06eca722e03a9dc1685b7e9ba6a4c38cf71c97fb411079`. O link abrirá o Jupyter, e os notebooks estarão no diretório **notebooks**.
 
 ### Cópia do repositório
 
