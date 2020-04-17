@@ -26,7 +26,7 @@ Para a execução local, os seguintes passos são necessários:
 
 Baixar este repositório para um diretório local.
 
-Executar o comando de execução do container docker. A primeira execução é demorada, pois irá baixar a imagem docker, com todos os pacotes necessários para sua execução completa.
+Executar o comando de execução do container docker. É necessário ser root da máquina A primeira execução é demorada, pois irá baixar a imagem docker, com todos os pacotes necessários para sua execução completa.
 
 ```
 docker run --rm -p 8888:8888 -v CAMINHO_COMPLETO_DIRETORIO_ORIGEM:/home/jovyan/notebooks gibiansky/ihaskell
