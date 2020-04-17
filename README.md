@@ -18,11 +18,16 @@ Ordem sugerida de aprendizado:
 - [funcoes_lambda_haskell.ipynb](https://github.com/Marcosddf/haskellfuncionalista/blob/master/funcoes_lambda_haskell.ipynb)
 - [listas_haskell.ipynb](https://github.com/Marcosddf/haskellfuncionalista/blob/master/listas_haskell.ipynb)
 
-### Execução online
+### Execução remota
+
+Para execução do Binder remota (e arquivos local):
+- baixar este repositório para um diretório
+- abrir o Binder usando o link abaixo.
+- carregar os arquivos .ipynb para o Binder aberto.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gibiansky/IHaskell/master)
-.. image:: https://mybinder.org/badge_logo.svg
- :target: https://mybinder.org/v2/gh/gibiansky/IHaskell/master
+
+A execução remota pode ser bastante lenta, pois cria a imagem docker remota. Recomendo instalar e executar em máquina local.
 
 ### Execução local do notebook usando o Docker
 
