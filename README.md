@@ -18,6 +18,12 @@ Ordem sugerida de aprendizado:
 - [funcoes_lambda_haskell.ipynb](https://github.com/Marcosddf/haskellfuncionalista/blob/master/funcoes_lambda_haskell.ipynb)
 - [listas_haskell.ipynb](https://github.com/Marcosddf/haskellfuncionalista/blob/master/listas_haskell.ipynb)
 
+### Execução online
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gibiansky/IHaskell/master)
+.. image:: https://mybinder.org/badge_logo.svg
+ :target: https://mybinder.org/v2/gh/gibiansky/IHaskell/master
+
 ### Execução local do notebook usando o Docker
 
 É necessário instalar o __Binder__ Jupyter do Haskell para o notebook ser interpretado.
