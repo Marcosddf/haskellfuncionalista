@@ -38,11 +38,14 @@ Para a execução local, os seguintes passos são necessários:
 
 Baixar este repositório para um diretório local.
 
-Executar o comando de execução do container docker. É necessário ser root da máquina A primeira execução é demorada, pois irá baixar a imagem docker, com todos os pacotes necessários para sua execução completa.
+Executar o comando de execução do container docker. É necessário ser root da máquina. A primeira execução é demorada, pois irá baixar a imagem docker, com todos os pacotes necessários para sua execução completa.
 
 ```
-docker run --rm -p 8888:8888 -v CAMINHO_COMPLETO_DIRETORIO_ORIGEM:/home/jovyan/notebooks gibiansky/ihaskell
+docker run --rm -p 8888:8888 -v "$PWD":/home/jovyan/notebooks gibiansky/ihaskell
 ```
+
+A imagem fonte é constantemente modifica, pode ser necessário copiar os arquivos `Dockerfile` e `ihaskell.cabal` para o diretório corrente, copiados do repositório: https://github.com/gibiansky/IHaskell
+
 
 No console de execução, abrir a URL no navegador. A URL terá um formato semelhante a este: `http://127.0.0.1:8888/?token=5b06eca722e03a9dc1685b7e9ba6a4c38cf71c97fb411079`. O link abrirá o Jupyter, e os notebooks estarão no diretório **notebooks**.
 
